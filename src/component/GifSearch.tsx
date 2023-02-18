@@ -32,7 +32,7 @@ function GifSearch(props: Props) {
 
   const performSearch = (searchTerm: string) => {
     const searchFunction = () => {
-      return (offset: number) => gf.search(searchTerm, { offset, limit: 10 });
+      return (offset: number) => gf.search(searchTerm, { offset, limit: 50 });
     };
 
     onSearch(searchFunction, new Date().getTime());
