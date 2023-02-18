@@ -12,7 +12,7 @@ interface Props {
 const columns = isMobile ? 1 : 4;
 
 function GifRenderer(props: Props) {
-  const {searchFunction, searchFunctionTimestamp} = props;
+  const { searchFunction, searchFunctionTimestamp } = props;
 
   const [width, setWidth] = useState<number>(window.innerWidth);
 
@@ -24,14 +24,21 @@ function GifRenderer(props: Props) {
     window.addEventListener('resize', handleWindowSizeChange);
     return () => {
       window.removeEventListener('resize', handleWindowSizeChange);
-    }
+    };
   }, []);
 
   return (
     <Container className="renderer-container">
-      {
-        searchFunction && <Grid key={searchFunctionTimestamp} width={isMobile ? width - 25 : 796} columns={columns} gutter={0} borderRadius={0} fetchGifs={searchFunction} />
-      }
+      {searchFunction && (
+        <Grid
+          key={searchFunctionTimestamp}
+          width={isMobile ? width - 25 : 796}
+          columns={columns}
+          gutter={0}
+          borderRadius={0}
+          fetchGifs={searchFunction}
+        />
+      )}
     </Container>
   );
 }

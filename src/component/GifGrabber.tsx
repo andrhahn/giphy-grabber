@@ -15,7 +15,10 @@ function GifGrabber() {
   return (
     <>
       <GifSearch onSearch={onSearch} />
-      <GifRenderer searchFunction={searchFunction} searchFunctionTimestamp={searchFunctionTimestamp} />
+      <GifRenderer
+        searchFunction={searchFunction}
+        searchFunctionTimestamp={searchFunctionTimestamp}
+      />
     </>
   );
 }

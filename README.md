@@ -25,6 +25,9 @@ Giphy Grabber
     # development server
     npm start
 
+    # format
+    npm run format
+
     # golden
     npm run golden
 

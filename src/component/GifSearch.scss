@@ -48,34 +48,59 @@
   font: normal normal 900 28px/34px Lato;
   font-size: 28px;
   letter-spacing: 0;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   opacity: 1;
   height: 50px;
   line-height: 50px;
 }
 
-.previous-text {
+.previous-container {
+  margin-top: 15px;
+}
+
+.previous-label {
   font: normal normal normal 12px/12px Lato;
   font-size: 12px;
   letter-spacing: 0;
-  color: #B2B2B2;
+  color: #b2b2b2;
   opacity: 1;
-  margin-top: 9px;
+  width: 50px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.previous-text-container {
+  display: inline-block;
+  position: absolute;
+  margin-top: -3px;
+}
+
+.previous-text-item {
+  font: normal normal normal 12px/12px Lato;
+  font-size: 12px;
+  letter-spacing: 0;
+  color: #00ccff;
+  text-decoration: underline;
+  margin-right: 7px;
+  opacity: 1;
+  cursor: pointer;
+  display: inline-block;
 }
 
 .results-label {
   font: normal normal normal 16px/16px Lato;
   letter-spacing: 0;
-  color: #B2B2B2;
+  color: #b2b2b2;
   margin-top: 25px;
   display: inline-block;
   margin-right: 4px;
+  height: 100%;
 }
 
 .results-text {
   font: normal normal bold 16px/16px Lato;
   letter-spacing: 0;
-  color: #B2B2B2;
+  color: #b2b2b2;
   display: inline-block;
 }
