@@ -41,11 +41,12 @@
   height: 45px;
   float: left;
   margin-left: -11px;
-  margin-top: 3px;
+  margin-top: 2px;
 }
 
 .logo-text {
-  font: normal normal 900 28px/34px Lato;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
   font-size: 28px;
   letter-spacing: 0;
   color: #ffffff;
@@ -60,20 +61,19 @@
 }
 
 .previous-label {
-  font: normal normal normal 12px/12px Lato;
+  font-family: 'Lato', sans-serif;
   font-size: 12px;
   letter-spacing: 0;
   color: #b2b2b2;
   opacity: 1;
   width: 50px;
-  margin-right: 10px;
+  margin-right: 15px;
   display: inline-block;
 }
 
 .previous-text-container {
   display: inline-block;
   position: absolute;
-  margin-top: -3px;
 }
 
 .previous-text-item {
@@ -89,7 +89,7 @@
 }
 
 .results-label {
-  font: normal normal normal 16px/16px Lato;
+  font-family: 'Lato', sans-serif;
   letter-spacing: 0;
   color: #b2b2b2;
   margin-top: 25px;
@@ -99,7 +99,7 @@
 }
 
 .results-text {
-  font: normal normal bold 16px/16px Lato;
+  font-family: 'Lato', sans-serif;
   letter-spacing: 0;
   color: #b2b2b2;
   display: inline-block;
